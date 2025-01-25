@@ -1,0 +1,9 @@
+name: gWhitelist
+version: '1.0'
+main: org.g0ldyy.gWhitelist.GWhitelist
+api-version: '1.21'
+commands:
+  gwhitelist:
+    description: Manage the whitelist.
+    usage: /gwhitelist <add|remove|list|on|off|status|reload> [player]
+    permission: gwhitelist.manage
